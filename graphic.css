@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.graphic-title{
+    padding: 5px 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.title-wrap{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.title-wrap span{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    /* letter-spacing: 0.1rem; */
+}
+@media (min-width: 768px){
+    .title-wrap{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        margin: 10px 0;
+    }
+    .title-wrap span{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        /* letter-spacing: 0.1rem; */
+    }
+
+}
+.graphic-active{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center; 
+    margin: 30px 0;
+    padding: 0 20px;
+    /* border: 1px solid #fff; */
+}
+.graphic-active h2{
+    color: #F8C65D;
+    font-size: 24px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-weight: 500;
+}
+.graphic-active span{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+@media (min-width: 768px){
+    .graphic-active h2{
+        color: #F8C65D;
+        font-size: 36px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-weight: 500;
+    }
+    .graphic-active span{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.graphic-container{
+    width: 100%;
+    height: 100%;
+    background-color: #1A1D1F;
+}
+.graphic-works{
+    margin: 0 30px;
+}
+@media (min-width: 768px){
+    .graphic-container{
+        margin-top: 300px;
+        background-color: #1A1D1F;
+    }
+}
+.graphic-work img{
+    max-width: 100%;
+}
+.graphic-work a{
+    color: #fff;
+    transition: opacity 0.3s ease;
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+a:hover .title-wrap{
+    color: #F8C65D;
+}
+@media (min-width: 768px){
+ 
+    main .graphic-works{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1.5em;
+    }
+    .graphic-work img{
+      width: 100%;
+    
+    }
+}
+@media (min-width: 1400px){
+    main .graphic-works{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 1.5em;
+    }
+    
+}
+.footer{
+    background-color: #1A1D1F;
+    color: #fff;
+    padding: 20px 0;
+
+}
