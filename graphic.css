@@ -51,6 +51,7 @@
 }
 .graphic-active span{
     font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
 }
 @media (min-width: 768px){
     .graphic-active h2{
@@ -62,6 +63,11 @@
     .graphic-active span{
         font-size: 18px;
         font-weight: 500;
+    }
+}
+@media (min-width: 1400px){
+    .graphic-active span{
+        font-size: 20px;
     }
 }
 
