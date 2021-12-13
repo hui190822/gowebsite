@@ -181,7 +181,8 @@ nav a:hover{
        
 }
 .bannerimg{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(https://i.imgur.com/z78clAt.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.0)), url(https://i.imgur.com/OLAPAaN.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url(https://i.imgur.com/z78clAt.jpg); */
     /* 圖層遮罩 */
     background-position: center;
     background-size: cover;
